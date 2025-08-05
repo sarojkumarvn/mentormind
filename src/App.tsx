@@ -19,6 +19,12 @@ import Analytics from "./pages/dashboard/Analytics";
 import Community from "./pages/dashboard/Community";
 import Blog from "./pages/dashboard/Blog";
 import StudyHub from "./pages/dashboard/StudyHub";
+import Notes from "./pages/dashboard/Notes";
+import Tasks from "./pages/dashboard/Tasks";
+import Quizzes from "./pages/dashboard/Quizzes";
+import Flashcards from "./pages/dashboard/Flashcards";
+import MindMaps from "./pages/dashboard/MindMaps";
+import JobsBoard from "./pages/dashboard/JobsBoard";
 import NotFound from "./pages/NotFound";
 import ProtectedRoute from "./components/ProtectedRoute";
 
@@ -50,6 +56,12 @@ const App = () => (
               <Route path="community" element={<Community />} />
               <Route path="blog" element={<Blog />} />
               <Route path="study-hub" element={<StudyHub />} />
+              <Route path="notes" element={<Notes />} />
+              <Route path="tasks" element={<Tasks />} />
+              <Route path="quizzes" element={<Quizzes />} />
+              <Route path="flashcards" element={<Flashcards />} />
+              <Route path="mind-maps" element={<MindMaps />} />
+              <Route path="jobs-board" element={<JobsBoard />} />
             </Route>
             
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
